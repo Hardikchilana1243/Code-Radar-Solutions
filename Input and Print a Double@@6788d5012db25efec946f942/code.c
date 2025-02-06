@@ -1,9 +1,7 @@
 #include<stdio.h>
 int main(){
-    int num,doubled ;
-    printf("enter the number : ");
-    scanf("%d",&num);
-    doubled = num *2;
-    printf("double of %d is %d\n",num,doubled);
+    double a;
+    scanf("%lf",&a);
+    printf("you entered : %.4lf",a);
     return 0;
 }
