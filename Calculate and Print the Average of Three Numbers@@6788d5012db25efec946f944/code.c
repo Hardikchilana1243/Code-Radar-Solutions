@@ -1,14 +1,8 @@
 #include <stdio.h>
 int main(){
-    int a,b,c;
-    int d;
-    printf("value of a is : ");
-    scanf("%d",&a);
-    printf("value of b is : ");
-    scanf("%d",&b);
-    printf("value of c is : ");
-    scanf("%d",&c);
-    d= (a+b+c)/3;
-    printf("Average: %d",d);
+  float x,y,z,avg;
+  scanf("%f %f %f",&x,&y,&z);
+  avg=(x+y+z)/3;
+  printf("Average: %.2f",avg);
     return 0;
 }
