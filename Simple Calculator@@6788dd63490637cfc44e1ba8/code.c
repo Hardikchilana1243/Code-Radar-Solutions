@@ -2,7 +2,7 @@
 int  main(){
     int a,b,sum,sub,div,mul;
     scanf("%d%d",&a,&b);
-    if(sum=a+b){
+    if(sum == a+b){
         printf("%d",sum);
     }
     else if(sub = a-b)
