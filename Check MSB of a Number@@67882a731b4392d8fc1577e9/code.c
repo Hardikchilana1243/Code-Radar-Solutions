@@ -9,9 +9,9 @@ int main() {
 
     // Check if MSB is set or not
     if (num & msbMask) {
-        printf("MSB is set (1).\n");
+        printf("Set");
     } else {
-        printf("MSB is not set (0).\n");
+        printf(" Not Set");
     }
 
     return 0;
