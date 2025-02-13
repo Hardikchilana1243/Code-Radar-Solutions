@@ -28,7 +28,7 @@
 #include<stdio.h>
 int main(){
     int a;
-    if(a>2 && a%1==0 && a%2==0 || a%3==0 || a%5 ==0){
+    if(a>2 && a%1==0 || a%2==0 || a%3==0 || a%5 ==0){
         printf("Prime");
     }
     else{
