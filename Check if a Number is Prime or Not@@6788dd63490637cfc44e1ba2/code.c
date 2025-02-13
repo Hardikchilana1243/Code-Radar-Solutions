@@ -28,11 +28,11 @@
 #include<stdio.h>
 int main(){
     int a;
-    if(a>2 && a%1==0 || a%2==0 || a%3==0 || a%5 ==0){
-        printf("Prime");
+    if(a>2 && a%1==0 && a%2==0 || a%3==0 || a%5 ==0){
+        printf("Not Prime");
     }
     else{
-        printf("Not Prime");
+        printf("Prime");
     }
     return 0;
 }
