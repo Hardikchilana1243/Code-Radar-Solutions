@@ -5,7 +5,7 @@ int  main(){
     if(sum == a+b){
         printf("%d",sum);
     }
-    else if(sub == a-b)
+    else if(sub = a-b)
     {
         printf("%d",sub);
     }
