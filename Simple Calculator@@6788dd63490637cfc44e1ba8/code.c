@@ -9,7 +9,7 @@ int  main(){
     {
         printf("%d",sub);
     }
-    else if(mul ==a*b)
+    else if(mul =a*b)
     {
         printf("%d",mul);
     }
