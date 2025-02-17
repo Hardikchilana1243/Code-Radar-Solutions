@@ -42,7 +42,7 @@
 int main(){
     int n;
     scanf("%d",&n);
-    int a=0;
+    int a;
     for(i=2;i<=n-1;i++){
         printf("Not prime");
         break;
