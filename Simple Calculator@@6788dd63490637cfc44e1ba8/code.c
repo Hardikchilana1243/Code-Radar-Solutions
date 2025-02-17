@@ -5,15 +5,15 @@ int  main(){
     if(sum == a+b){
         printf("%d",sum);
     }
-    if(sub == a-b)
+    else if(sub == a-b)
     {
         printf("%d",sub);
     }
-    if(mul ==a*b)
+    else if(mul ==a*b)
     {
         printf("%d",mul);
     }
-    if(div == a/b){
+    else if(div == a/b){
         printf("%d",div);
     }
     else {
