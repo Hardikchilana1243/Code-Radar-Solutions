@@ -14,7 +14,7 @@
 
 #include<stdio.h>
 int main(){
-    char a[10],b[10];
+    char a[10],c[10];
     int b;
     scanf("%s %d %s",&a,&b,&c);
     printf("Name: %s\n",a);
