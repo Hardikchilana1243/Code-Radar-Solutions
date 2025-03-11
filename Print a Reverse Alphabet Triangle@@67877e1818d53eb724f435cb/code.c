@@ -8,7 +8,7 @@ int main(){
        for(int j =1;j<=a;j++){
         int d =j+64;
         char ch = (char)d;
-        printf("%c",ch);
+        printf("%c ",ch);
            
        }
        a--;
