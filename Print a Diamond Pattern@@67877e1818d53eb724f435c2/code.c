@@ -51,11 +51,11 @@ void printDiamond(int n) {
 
 int main() {
     int n;
-    printf("Enter an odd number for diamond size: ");
+    // printf("Enter an odd number for diamond size: ");
     scanf("%d", &n);
 
     if (n % 2 == 0) {
-        printf("Please enter an odd number.\n");
+        // printf("Please enter an odd number.\n");
     } else {
         printDiamond(n);
     }
