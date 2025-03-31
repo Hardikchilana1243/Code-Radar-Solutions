@@ -33,10 +33,12 @@
 #include<stdio.h>
 int main(){
     int n;
+    int a=n;
     printf("enter the number: ");
     for(int i=1;i<=n;i++){
-        for(int j=1;j<=n-i;j++){
+        for(int j=1;j<=a;j++){
             printf("* ");
+            a--;
         }
         printf("\n");
     } 
