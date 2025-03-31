@@ -47,17 +47,18 @@ void printDiamond(int n) {
             printf("*");
         printf("\n");
     }
-}
-
-int main() {
-    int n;
-    // printf("");
-    scanf("%d", &n);
-
-    if (n % 2 == 0) {
-        printf("*");
-    } else {
-        printDiamond(n);
-    }
     return 0;
 }
+
+// int main() {
+//     int n;
+//     // printf("");
+//     scanf("%d", &n);
+
+//     if (n % 2 == 0) {
+//         printf("*");
+//     } else {
+//         printDiamond(n);
+//     }
+//     return 0;
+// }
